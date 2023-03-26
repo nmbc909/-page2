@@ -1,0 +1,2 @@
+name 'page'
+PS C:\Users\User\Desktop\my-project> git config user.email 'nmbc909@gmail.com'

@@ -1,0 +1,50 @@
+@media screen and (min-width: 1160px) {
+  article > div {
+    width: 1160px;
+  }
+
+  header > div {
+    width: 1160px;
+  }
+}
+
+@media screen and (max-width: 1159px) and (min-width: 980px) {
+}
+
+@media screen and (max-width: 979px) and (min-width: 580px) {
+  header > div {
+    display: block;
+    text-align: center;
+  }
+
+  header > div > nav {
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    background-color: rgba(25, 4, 25, 0.9);
+    left: 0;
+    top: 0;
+    padding-top: 10vh;
+  }
+
+  nav > ul {
+    background-color: pink;
+  }
+  nav > ul > li {
+    /* width: 100%; */
+    display: block;
+    margin-left: 0;
+    border-bottom: 1px solid white;
+  }
+
+  nav > ul > li > a {
+    line-height: 20vh;
+    /* border-bottom: 1px solid white; */
+    /* font-weight: bold;
+    font-size: 18px;
+    color: white; */
+  }
+}
+
+@media screen and (max-width: 579px) {
+}
